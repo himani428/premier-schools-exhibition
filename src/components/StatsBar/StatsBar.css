@@ -1,0 +1,23 @@
+.stats-bar {
+  background: #ffffff;
+  padding: 60px 0;
+}
+
+.stats-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.stat h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1c1c1c;
+}
+
+.stat p {
+  font-size: 16px;
+  color: #555;
+}

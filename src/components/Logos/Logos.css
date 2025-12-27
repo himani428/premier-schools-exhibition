@@ -1,0 +1,16 @@
+.logos {
+  overflow: hidden;
+  padding: 40px 0;
+  background: #fff;
+}
+
+.logos-track {
+  display: flex;
+  gap: 60px;
+  animation: scroll 25s linear infinite;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}

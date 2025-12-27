@@ -1,0 +1,26 @@
+.partners {
+  padding: 60px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.partners h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.logo-track {
+  display: flex;
+  gap: 60px;
+  animation: scroll 25s linear infinite;
+}
+
+.logo-track img {
+  height: 80px;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}

@@ -1,0 +1,60 @@
+.pre-schedule {
+  position: relative;
+  height: 480px;
+  width: 100%;
+  background-image: url("src/assets/meetings.jpg");
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Purple overlay */
+.pre-schedule__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(88, 41, 136, 0.95) 0%,
+    rgba(88, 41, 136, 0.75) 35%,
+    rgba(88, 41, 136, 0.4) 60%,
+    rgba(88, 41, 136, 0.05) 100%
+  );
+  z-index: 1;
+}
+
+.pre-schedule__content {
+  position: relative;
+  z-index: 2;
+  max-width: 520px;
+  padding: 120px 80px;
+  color: #fff;
+}
+
+.pre-schedule__content h2 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.pre-schedule__content p {
+  font-size: 18px;
+  margin-bottom: 28px;
+  opacity: 0.95;
+}
+
+.pre-btn {
+  background: #ffffff;
+  color: #4b237c;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.pre-btn:hover {
+  background: #f0e9ff;
+}
